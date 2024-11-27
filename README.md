@@ -27,10 +27,16 @@
 ## vscode + mingw の方法
 
 - 参考
-  - https://code.visualstudio.com/docs/cpp/config-mingw
+  - <https://code.visualstudio.com/docs/cpp/config-mingw>
 - 手順
   - msys2 をインストール
   - path を通す（システム環境変数）
   - git bash を開きなおし、g++ --version で確認
   - 実行は g++ hello.cpp のように実施する
   - ×：#include <bits/stdc++.h>でエラー
+
+## scoop,wslの共存
+
+- ctrl + p ⇒ > c/c++: config~とかで設定を開く
+- linux, win両方のconfigを作っておく
+- 環境に応じて、> c/c++: select config~で選択を変える
